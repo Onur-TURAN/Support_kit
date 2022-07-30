@@ -1,8 +1,8 @@
 #!/bin/bash
 echo " EXPECT0"
 #!/bin/bash
-sudo apt-get update -y && sudo apt-get upgrade -y
-
+sudo apt update -y && sudo apt upgrade -y
+echo "docker-is-coming"
 curl -fsSL https://get.docker.com -o get-docker.sh
 sudo sh get-docker.sh
 sudo usermod -aG docker [user_name]
