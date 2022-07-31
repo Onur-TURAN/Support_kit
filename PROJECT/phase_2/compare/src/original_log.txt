@@ -1,0 +1,3 @@
+010101010212120 32123123012 user var/www/html
+225454564545544 54545454545 root usr/share/wordlist/rockyou.txt
+
